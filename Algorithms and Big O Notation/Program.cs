@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Algorithms algorithms = new Algorithms();
+            List<string> names = new List<string>() { "Don", "Abby", "Jeff" };
+            algorithms.Repeats(names);
+
         }
     }
 }
